@@ -32,6 +32,12 @@
             font-size: 13px;
         }
     }
+    .title {
+        &_left {
+            font-size: 30px;
+        }
+    } 
+    
 }
 
 @media (max-width: 767px) {
@@ -93,6 +99,18 @@
     .title {
         margin: 0;
         line-height: 25px;
+        &_left {
+            font-size: 23px;
+            line-height: 30px;
+        }
+    }
+    .consultation {
+        min-height: 500px;
+        padding: 80px 0;
+        &__descr {
+            font-size: 19px;
+            line-height: 23px;
+        }
     }
 }
 
@@ -145,6 +163,34 @@
     }
     .title {
         font-size: 23px;
+        &_left {
+            text-align: center;
+            font-size: 19px;
+            line-height: 25px;
+        }
     }
-
+    .consultation {
+        min-height: 450px;
+        padding: 60px 0;
+        &__descr {
+            font-size: 15px;
+            line-height: 23px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+    .feed-form {
+        width: 280px;
+        margin-left: 4px;
+        input {
+            height: 40px;
+            font-size: 12px;
+        }
+    }
+    .button {
+        &_submit {
+            height: 40px;
+            font-size: 14px;
+        }
+    }
 }
