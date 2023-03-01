@@ -2,6 +2,38 @@
     .container {
         max-width: 850px;
     }
+    .carousel {
+        .tns-item {
+            img {
+                width: 600px;
+            }
+        }
+        .prev {
+            left: -40px;
+        }
+        .next {
+            right: -40px;
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: center;
+            flex-wrap: none;
+        }
+        &-item {
+            margin: 0 15px 20px 20px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 440px;
+            height: 230px;
+            transform: none;
+            left: auto;
+            right: 0;
+            padding: 30px 48px 20px 48px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
