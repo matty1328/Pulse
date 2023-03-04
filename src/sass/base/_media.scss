@@ -387,4 +387,24 @@
             top: 80px;
         }
     }
+    .overlay {
+        .modal {
+            width: 275px;
+            min-height: 300px;
+            padding: 30px 30px 30px 15px;
+            &__close {
+                top: -25px;
+                right: -4px;
+            }
+            &__subtitle {
+                font-size: 14px;
+            }
+            &__descr {
+                font-size: 11px;
+            }
+        }
+        .feed-form {
+            width: 230px;
+        }
+    }
 }
