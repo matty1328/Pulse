@@ -133,13 +133,29 @@
             transition: .7s all;
             padding-left: 19px;
             margin-bottom: 0;
-            list-style-type: none;
+           /*  list-style-type: none; */
             &_active {
                 transform: translateX(-100%);
                 margin-right: 0px;
             }
+            div {
+                position: relative;
+                font-weight: 300;
+                font-size: 14px;
+                color: #555555;
+                margin-bottom: 20px;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 5px;
+                    height: 5px;
+                    background-color: $main-color;
+                    top: 7px;
+                    left: -14px;
+                }
+            }
         }
-        li {
+        /* li {
             position: relative;
             font-weight: 300;
             font-size: 14px;
@@ -154,7 +170,7 @@
                 top: 7px;
                 left: -14px;
             }
-        }
+        } */
         &__back {
             position: absolute;
             bottom: 0;
